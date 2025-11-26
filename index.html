@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<meta http-equiv="refresh" content="0; url=https://idam.lovestoblog.com/jernih-gulo/" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undangan Wisuda Syukur Slamat Jernih Kasih Gulo</title>
+
+<!-- OG Preview -->
+<meta property="og:title" content="Undangan Wisuda Syukur Slamat Jernih Kasih Gulo">
+<meta property="og:description" content="Saya berharap Anda bisa datang dan merayakan hari spesial ini bersama saya: Syukur Slamat Jernih Kasih Gulo.">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54776666922_5c754f4250_c.jpg">
+<meta property="og:url" content="https://idam.lovestoblog.com/jernih-gulo/">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Undangan Wisuda Syukur Slamat Jernih Kasih Gulo">
+<meta name="twitter:description" content="Saya berharap Anda bisa datang dan merayakan hari spesial ini bersama saya: Syukur Slamat Jernih Kasih Gulo.">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/54776666922_5c754f4250_c.jpg">
+
+<!-- Redirect awal -->
+<meta id="redirect-meta" http-equiv="refresh" content="0;url=https://idam.lovestoblog.com/jernih-gulo/">
+
 <script>
-  window.location.href = "https://idam.lovestoblog.com/jernih-gulo/";
+(function () {
+    const params = new URLSearchParams(window.location.search);
+
+    // Ambil nama jika ada
+    let nama = params.get("nama") || "";
+    nama = nama.replace(/\+/g, " ");
+
+    // URL tujuan
+    const target = "https://idam.lovestoblog.com/jernih-gulo/?nama=" + encodeURIComponent(nama);
+
+    // Update meta redirect
+    const meta = document.getElementById("redirect-meta");
+    if (meta) {
+        meta.setAttribute("content", "0;url=" + target);
+    }
+
+    // Redirect lewat JS
+    window.location.replace(target);
+})();
 </script>
+
 </head>
 <body>
-<p>Redirecting...</p>
+<p>Jika tidak diarahkan otomatis, <a id="manual-link" href="#">klik di sini</a>.</p>
+
+<script>
+  const params2 = new URLSearchParams(window.location.search);
+  let nm = params2.get("nama") || "";
+  nm = nm.replace(/\+/g, " ");
+  document.getElementById("manual-link").href =
+      "https://idam.lovestoblog.com/jernih-gulo/?nama=" + encodeURIComponent(nm);
+</script>
+
 </body>
 </html>
